@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About US</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        .section{
+            width: 100%;
+            max-height: 1000%;
+             background-color: #c8e8e9; 
+        }
+        .container{
+            width: 80%;
+            display: block;
+            margin: auto;
+            padding-top: 100px;
+        }
+        .contant-section{
+            float: left;
+            width: 55%;
+        }
+        .image-section{
+            float: right;
+            width: 40%;
+        }
+        .image-section img{
+            width: 100%;
+            height: auto;
+        }
+        .contant-section .title{
+            text-transform: uppercase;
+            font-size: 28px;
+        }
+        .contant-section .contant{
+            margin-top: 20px;
+            color: #5d5d5d;
+            font-size: 21px;
+        }
+        .contant-section .contant p{
+            margin-top: 10px;
+            font-family: sans-serif;
+            font-size: 18px;
+            line-height: 1.5;
+        }
+        .contant-section .contant .button{
+            margin-top: 30px;
+        }
+        .contant-section .contant .button a{
+            background-color: #3d3d3d;
+            padding: 10px 40px;
+            text-decoration: none;
+            color: #fff;
+            font-size: 25px;
+            letter-spacing: 1.5px;
+        }
+        .contant-section .contant .button a:hover{
+            background-color: #a52a2a;
+            color: #fff;
+        }
+        .contant-section .social{
+            margin: 40px 40px;
+        }
+        .contant-section .social i{
+            color: #a52a2a;
+            font-size: 30px;
+            padding: 0px 10px;
+        }
+        .contant-section .social i:hover{
+            color: #3d3d3d;
+        }
+       
+
+        /* media Quary */
+        @media  (max-width: 768px){
+            .container{
+            width: 80%;
+            display: block;
+            margin: auto;
+            padding-top: 50px;
+            }
+        .contant-section{
+            float: none;
+            width: 100%;
+            display: block;
+            margin: auto;
+        }
+        .image-section{
+            float: none;
+            width: 100%;
+        }
+        .image-section img{
+            width: 100%;
+            height: auto;
+            display: block;
+            margin: auto;
+        }
+        .contant-section .title{
+           text-align: center;
+            font-size: 19px;
+        }
+        .contant-section .contant .button{
+           text-align: center;
+        }
+        .contant-section .contant .button a{
+           padding: 9px 30px;
+        }
+        .contant-section .social{
+           text-align: center;
+        }
+         .footer{
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding: 25 0;
+    background: #262626;
+    font-weight: 300;
+    margin-top: 20px; 
+}
+
+        }
+    
+    </style>
+</head>
+<body>
+    <div class="section">
+        <div class="container">
+            <div class="contant-section">
+                <div class="title">
+                    <h1>About Us</h1>
+                </div>
+                <div class="contant">
+                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam ut et odio accusantium inventore esse dolorem minima repellendus dicta minus, adipisci sint provident blanditiis quam assumenda reprehenderit quo temporibus magnam eius fugiat ipsa vitae vel? Saepe enim omnis delectus!</p>
+                    <div class="button">
+                        <a href="">Read More</a>
+                    </div>
+                </div>
+                <div class="social">
+                    <a href=""><i class="fab fa-facebook"></i></a>
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                    <a href=""><i class="fab fa-facebook"></i></a>
+                </div>
+            </div>
+            <div class="image-section">
+                <img src="about.jpg" alt="">
+            </div>
+        </div>
+        <div class="footer">
+            <p>Copyright © 2023 Bhukha Prani. All Rights Are Reserved.</p>
+        </div>
+    </div>
+ 
+</body>
+</html>
